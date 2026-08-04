@@ -1,0 +1,21 @@
+[project]
+name = "affine6p-typed"
+version = "1.0.0"
+description = "The Python library to estimate affine transformation parameters between two sets of 2D points"
+readme = "README.md"
+authors = [{ name = "Danila Schelkov", email = "me@donutquine.dev" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xcoder-tool/affine6p-typed"
+Repository = "https://github.com/xcoder-tool/affine6p-typed.git"
+Issues = "https://github.com/xcoder-tool/affine6p-typed/issues"
+
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "affine6p"
+
